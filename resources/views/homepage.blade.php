@@ -29,39 +29,86 @@ $homeCon = new HomeController();
                             <div class="see_all"><a href="/education">SHOW ALL</a></div>
                     </div>
                     <p>Take a Look at our Recent Articles, Vetted and Approved by Medical Professionals! </p>
+                    <hr>
                 </div>
-                    
+                
                     <div class="row">
-                        <div class = "col recentarticle-side">
-                            <a href = <?php echo ("http://".($homeCon)->getRecentArticleContent(0));?> >
-                                <h5>Whats New In Medicine <?php echo (($homeCon)->getRecentArticleName(0));?></h5>
+                        <div class = "recentarticle-main">
+                            <a href="https://www.youtube.com">
+                            <div class="recentarticle-img">
+                            <img src = "../imgs/wellness-mental-health.jpg" >
+                            </div>
+                            <div class="recentcaption">
+                                My Text is right here
+                            </div>
                             </a>
-                            <img src = "../imgs/1800ss_getty_rf_doctor_examining_patients_skin_magnifying_glass.webp" >
+                            
                             <div class="seemore_main">
                                 <div class="see_more"><a href="<?php echo ("http://".($homeCon)->getRecentArticleContent(0));?>">SEE MORE</a></div>
                             </div>
                             
                         </div>
-                        <div class = "col recentarticle-main" >
-                            <a href = <?php echo ("http://".($homeCon)->getRecentArticleContent(1));?> >
-                                <h5>New Discoveries In Fitness <?php echo (($homeCon)->getRecentArticleName(1));?></h5>
+                        <div class = "recentarticle-main">
+                            <a href="https://www.youtube.com">
+                            <div class="recentarticle-img">
+                            <img src = "../imgs/wellness-mental-health.jpg" >
+                            </div>
+                            <div class="recentcaption">
+                                My Text is right here
+                            </div>
                             </a>
-                            <img src="../imgs/1800x1200_10_tips_for_maintaining_a_kickass_workout_schedule_slideshow.webp">
+                            
                             <div class="seemore_main">
-                                <div class="see_more"><a href="<?php echo ("http://".($homeCon)->getRecentArticleContent(1));?>">SEE MORE</a></div>
+                                <div class="see_more"><a href="<?php echo ("http://".($homeCon)->getRecentArticleContent(0));?>">SEE MORE</a></div>
                             </div>
                             
                         </div>
-                        <div class = "col recentarticle-side" >
-                            <a href = <?php echo ("http://".($homeCon)->getRecentArticleContent(2));?> >
-                                <h5>Cholestrol:Healthy or Harmful? <?php echo (($homeCon)->getRecentArticleName(2));?></h5>
+                        <div class = "recentarticle-main">
+                            <a href="https://www.youtube.com">
+                            <div class="recentarticle-img">
+                            <img src = "../imgs/wellness-mental-health.jpg" >
+                            </div>
+                            <div class="recentcaption">
+                                My Text is right here
+                            </div>
                             </a>
-                            <img src="../imgs/1800x1200_cholesterol_smarts_quiz.webp">
+                            
                             <div class="seemore_main">
-                                <div class="see_more"><a href="<?php echo ("http://".($homeCon)->getRecentArticleContent(2));?>">SEE MORE</a></div>
+                                <div class="see_more"><a href="<?php echo ("http://".($homeCon)->getRecentArticleContent(0));?>">SEE MORE</a></div>
                             </div>
                             
                         </div>
+                        <div class = "recentarticle-main">
+                            <a href="https://www.youtube.com">
+                            <div class="recentarticle-img">
+                            <img src = "../imgs/wellness-mental-health.jpg" >
+                            </div>
+                            <div class="recentcaption">
+                                My Text is right here
+                            </div>
+                            </a>
+                            
+                            <div class="seemore_main">
+                                <div class="see_more"><a href="<?php echo ("http://".($homeCon)->getRecentArticleContent(0));?>">SEE MORE</a></div>
+                            </div>
+                            
+                        </div>
+                        <div class = "recentarticle-main">
+                            <a href="https://www.youtube.com">
+                            <div class="recentarticle-img">
+                            <img src = "../imgs/wellness-mental-health.jpg" >
+                            </div>
+                            <div class="recentcaption">
+                                My Text is right here
+                            </div>
+                            </a>
+                            
+                            <div class="seemore_main">
+                                <div class="see_more"><a href="<?php echo ("http://".($homeCon)->getRecentArticleContent(0));?>">SEE MORE</a></div>
+                            </div>
+                            
+                        </div>
+                                                
                     </div>
                     
                 </div>
@@ -76,7 +123,7 @@ $homeCon = new HomeController();
                     <div class="see_all"><a href="/education">SHOW ALL</a></div>
                 </div>
                     
-                <hr>
+            <hr>
             </div> 
             
                 <div class = "topicsbox container">
